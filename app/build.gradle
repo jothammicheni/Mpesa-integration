@@ -14,11 +14,17 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildFeatures {
+
+            buildConfig true
+
+        }
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("string", "CONSUMER_KEY","\"0cyJrfzGx9zQ6vZgd1GpaP0wUcAAbmGH6JgYXtHNZikkGhr\"")
-        buildConfigField("string", "CONSUMER_SECRET","\"fjwBlkAWn6IOGdAyGmnmOqPnQFYpIx1se8EA5RKXrTlGnnIFOBvZiV4EEAWN9lco\"")
+        buildConfigField("String", "CONSUMER_KEY","\"0cyJrfzGx9zQ6vZgd1GpaP0wUcAAbmGH6JgYXtHNZikkGhr\"")
+        buildConfigField("String", "CONSUMER_SECRET","\"fjwBlkAWn6IOGdAyGmnmOqPnQFYpIx1se8EA5RKXrTlGnnIFOBvZiV4EEAWN9lco\"")
 
     }
 

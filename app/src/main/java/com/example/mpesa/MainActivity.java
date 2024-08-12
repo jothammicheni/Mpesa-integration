@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     // Constants (should be stored securely in a production app)
     private static final String BUSINESS_SHORT_CODE = "174379";
     private static final String PASSKEY = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
-    private static final String CALLBACK_URL = "https://your-actual-callback-url.com/path";
+    private static final String CALLBACK_URL = "https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/query";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

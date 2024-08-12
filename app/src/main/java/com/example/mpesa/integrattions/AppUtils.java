@@ -16,7 +16,7 @@ public class AppUtils {
     }
 
     public static String getPassKey() {
-        return "your_pass_key_here"; // Replace with your actual pass key
+        return "32iSluTYMmyLOOPHXXdHJM8SJvV8TuGG"; // Replace with your actual pass key
     }
 
     public static void saveAccessToken(Context context, String accessToken) {

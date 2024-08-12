@@ -135,6 +135,8 @@ public class MainActivity extends AppCompatActivity {
                 mProgressDialog.dismiss();
                 Log.e(TAG, "Payment request failed", t);
                 Toast.makeText(MainActivity.this, "Payment request failed", Toast.LENGTH_SHORT).show();
+
+             //
             }
         });
     }

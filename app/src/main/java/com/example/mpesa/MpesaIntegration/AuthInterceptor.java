@@ -1,4 +1,4 @@
-package com.example.mpesa.Interceptor;
+package com.example.mpesa.MpesaIntegration;
 
 import androidx.annotation.NonNull;
 

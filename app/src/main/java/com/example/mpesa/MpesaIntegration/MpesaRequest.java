@@ -1,4 +1,4 @@
-package com.example.mpesa.integrattions;
+package com.example.mpesa.MpesaIntegration;
 
 public class MpesaRequest {
     private String BusinessShortCode;

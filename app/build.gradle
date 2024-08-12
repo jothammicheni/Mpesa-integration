@@ -23,8 +23,12 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "CONSUMER_KEY","\"0cyJrfzGx9zQ6vZgd1GpaP0wUcAAbmGH6JgYXtHNZikkGhr\"")
-        buildConfigField("String", "CONSUMER_SECRET","\"fjwBlkAWn6IOGdAyGmnmOqPnQFYpIx1se8EA5RKXrTlGnnIFOBvZiV4EEAWN9lco\"")
+//        buildConfigField("String", "CONSUMER_KEY","\"0cyJrfzGx9zQ6vZgd1GpaP0wUcAAbmGH6JgYXtHNZikkGhr\"")
+//        buildConfigField("String", "CONSUMER_SECRET","\"fjwBlkAWn6IOGdAyGmnmOqPnQFYpIx1se8EA5RKXrTlGnnIFOBvZiV4EEAWN9lco\"")
+
+
+        buildConfigField("String", "CONSUMER_KEY","\"OrElS3xwqJ1rOWomYewYmI3KfDt8tLwA\"")
+        buildConfigField("String", "CONSUMER_SECRET","\"jOmH8fSVNfhEHO7c\"")
 
     }
 

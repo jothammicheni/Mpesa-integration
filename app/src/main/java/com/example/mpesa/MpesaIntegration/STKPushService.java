@@ -1,7 +1,4 @@
-package com.example.mpesa.Interceptor;
-
-import com.example.mpesa.model.AccessToken;
-import com.example.mpesa.model.STKPush;
+package com.example.mpesa.MpesaIntegration;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

@@ -1,4 +1,4 @@
-package com.example.mpesa.model;
+package com.example.mpesa.MpesaIntegration;
 
 import com.google.gson.annotations.SerializedName;
 

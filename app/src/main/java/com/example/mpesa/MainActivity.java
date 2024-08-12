@@ -10,10 +10,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mpesa.integrattions.DarajaApiClient;
-import com.example.mpesa.integrattions.Utils;
-import com.example.mpesa.model.STKPush;
-import  com.example.mpesa.model.AccessToken;
+import com.example.mpesa.MpesaIntegration.DarajaApiClient;
+import com.example.mpesa.MpesaIntegration.Utils;
+import com.example.mpesa.MpesaIntegration.STKPush;
+import com.example.mpesa.MpesaIntegration.AccessToken;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         mProgressDialog.show();
 
         String timestamp = Utils.getTimestamp();
+       // String toEncode = BUSINESS_SHORT_CODE + PASSKEY + timestamp;
         String toEncode = BUSINESS_SHORT_CODE + PASSKEY + timestamp;
 
         byte[] byteArray = toEncode.getBytes(StandardCharsets.UTF_8);
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 BUSINESS_SHORT_CODE,
                 Utils.sanitizePhoneNumber(phoneNumber),
                 CALLBACK_URL,
-                "Luxury Network company powered by Starlink",
+                "Nevada properties",
                 "Payment of X"
         );
 

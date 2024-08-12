@@ -1,4 +1,4 @@
-package com.example.mpesa.integrattions;
+package com.example.mpesa.MpesaIntegration;
 
 
 import android.util.Base64;

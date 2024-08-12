@@ -1,14 +1,10 @@
-package com.example.mpesa.integrattions;
-import static com.example.mpesa.integrattions.Constants.BASE_URL;
-import static com.example.mpesa.integrattions.Constants.CONNECT_TIMEOUT;
-import static com.example.mpesa.integrattions.Constants.READ_TIMEOUT;
-import static com.example.mpesa.integrattions.Constants.WRITE_TIMEOUT;
+package com.example.mpesa.MpesaIntegration;
+import static com.example.mpesa.MpesaIntegration.Constants.BASE_URL;
+import static com.example.mpesa.MpesaIntegration.Constants.CONNECT_TIMEOUT;
+import static com.example.mpesa.MpesaIntegration.Constants.READ_TIMEOUT;
+import static com.example.mpesa.MpesaIntegration.Constants.WRITE_TIMEOUT;
 
 import android.os.Build;
-
-import com.example.mpesa.Interceptor.AccessTokenInterceptor;
-import com.example.mpesa.Interceptor.AuthInterceptor;
-import com.example.mpesa.Interceptor.STKPushService;
 
 import java.util.concurrent.TimeUnit;
 
